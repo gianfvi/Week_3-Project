@@ -26,6 +26,17 @@ This project aims to investigate how various phenomena and events in Puerto Rico
    - 2021: [Link](https://api.census.gov/data/2021/acs/acs5/subject)
    - 2022: [Link](https://api.census.gov/data/2022/acs/acs5/subject)
 
+## Data Wrangling, Cleaning & Manipulation
+
+To clean and filter The World Bank data on "Net migration" for Puerto Rico, we specifically:
+
+- Extracted the relevant information related to our research question and hypotheses.
+- Filtered the data to include only information concerning Puerto Rico.
+- Visualized the data to identify the availability of years between 2015 and 2022.
+- Renamed the columns to their respective years.
+- Dropped the unnecessary data.
+- Merged this cleaned dataset with the census data.
+
 ## References:
 
 - U.S. Census Bureau. (n.d.). AGE AND SEX. American Community Survey, ACS 5-Year Estimates Subject Tables, Table S0101, 2015-2022. Retrieved Month Day, Year, from [Link](https://data.census.gov/table/ACSST5Y2020.S0101?moe=false)
